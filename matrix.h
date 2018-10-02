@@ -9,10 +9,10 @@ public:
 	{
 		m = row;
 		n = col;
-		p = new int*[m];
+		p = new int*[m]; // cap phat bo nho cho so dong cua ma tran p 
 		for(int i = 0; i<m;i++)
 		{
-			p[i] = new int[n];
+			p[i] = new int[n]; // cap phat bo nho cho cac phan tu cua moi dong
 			for(int j = 0; j<n;j++)
 			{
 				p[i][j] = 0;
